@@ -9,7 +9,7 @@ from tensorflow.python.keras.layers import Input, Dense
 from tensorflow.keras.optimizers import SGD
 
 
-datos = pd.read_csv('dataset3.csv', sep=",", skiprows=0, usecols=[4,474])
+datos = pd.read_csv('Fallecidos por municipio, fecha de fallecimiento del 2020-02-13 al 2021-05-26.csv', sep=",", skiprows=0, usecols=[4,474])
 print(datos.dtypes)
 
 # Al graficar los datos se observa una tendencia lineal
